@@ -163,5 +163,5 @@ def generate_attack_surface_report(repo_path, output_csv="attack_surface_report.
     print(f"Analysis complete. Report generated at: {output_csv}")
 
 if __name__ == "__main__":
-    target_directory = input("Enter the path to the OpenClaw repository: ")
+    target_directory = "\\bear-ad.cs.fiu.edu\homes\Downloads\openclaw"
     generate_attack_surface_report(target_directory)
